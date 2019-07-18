@@ -60,3 +60,8 @@
 /DataBindingLab/DataBindingLab/bin/*
 /DataBindingLab/DataBindingLab/obj/*
 /.vs
+/LAB01_KonzolosHelloWorld/Numbers/bin/*
+/LAB01_KonzolosHelloWorld/Numbers/obj/*
+/LAB01_KonzolosHelloWorld/.vs/*
+/LAB01_KonzolosHelloWorld/Tests/bin/*
+/LAB01_KonzolosHelloWorld/Tests/obj/*

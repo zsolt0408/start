@@ -20,11 +20,12 @@ namespace MandelbrotCommon
         {
             // EVIP: parallel rendering of Mandelbrot set with
             //  Linq (some elements of functional programming)
-            image.GetAllPixelLocations().AsParallel()
-                .Select(p => ToScaledComplex(p))
-                .Select(c => GetMandelbrotDivergenceIndex(c))
-                .Select(i => Index2HSV(i))
-                .SetPixels(image);
+            image.GetAllPixelLocations()    // WriteableBitmap ---> IEnumerable<Point>
+                .AsParallel()
+                .Select(p => ToScaledComplex(p))    // Point ---> (Point, Complex) 
+                .Select(c => GetMandelbrotDivergenceIndex(c))   // (Point, Complex) ---> (Point, int)
+                .Select(i => Index2HSV(i))  // (Point, int) ---> (Point, Color)
+                .SetPixels(image);  // IEnumerable<(Point, Color)>, WriteableBitmap ---> void
         }
 
         #region Transformations for Linq expressions
