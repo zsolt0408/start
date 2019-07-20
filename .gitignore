@@ -65,3 +65,7 @@
 /LAB01_KonzolosHelloWorld/.vs/*
 /LAB01_KonzolosHelloWorld/Tests/bin/*
 /LAB01_KonzolosHelloWorld/Tests/obj/*
+.vs/
+packages/
+bin/
+obj/
