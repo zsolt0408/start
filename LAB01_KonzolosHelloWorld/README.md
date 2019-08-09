@@ -20,14 +20,14 @@ Ehhez a laborhoz nagyon részletes videó útmutató tartozik, melyeket kérünk
 ## 1. feladat: classroom.github.com
 
 Hozd létre a saját repositorydat, amit a félév során fogsz használni!
-GitHub classroom invitation URL: https://classroom.github.com/a/_5FZiT6U
+GitHub classroom invitation URL a tárgy tanszéki honlapján, bejelentkezés után: https://www.aut.bme.hu/Course/VIAUBB01 (Publikus helyre sajnos nem kerülhet ki.)
 
 (Amennyiben hallgatói névsorból kell választani, akkor válaszd ki magadat, ha nem, akkor az alábbi elnevezési konvenciót kövesd a repositorynál: Kurzuskod_Nev, ahol a nevet egybe írd nagy kezdőbetűkkel (PascalCasing), ékezetek nélkül, pl. L1_MintaMokus.)
 
 ## 2. feladat: git clone, labor megoldás elkezdése
 
 - Klónozd a repositorydat a laborgépre.
-- Hozz létre a master branch mellé egyet, amire a mostani laboron fogsz dolgozni. Pl. LAB01 néven. A labor végén a pull requestben ennek az eltérését fogod majd beadni a master branchhez képest.
+- Hozz létre a master branch mellé egyet, amire a mostani laboron fogsz dolgozni LAB01 néven. A labor végén a pull requestben ennek az eltérését fogod majd beadni a master branchhez képest.
 - Nyisd meg a kiadott keretprogramot.
 
 ## 3. feladat: kész kód áttekintése, debug feladat
@@ -36,7 +36,7 @@ GitHub classroom invitation URL: https://classroom.github.com/a/_5FZiT6U
 
 ## 4. feladat: kódolás, debug funkciók
 
-- Egészítsd ki az alkalmazást, de a videóval ellentétben most ne a prímszámok darabszámát, hanem összegét határozd meg.
+- Egészítsd ki az alkalmazást úgy, hogy prímszámok összegét is ki tudja írni! A videóval ellentétben most ne a prímszámok darabszámát, hanem összegét határozd meg.
 - Futtasd lépésenként a programot a debugger segítségével.
 - Ha működik a megoldás, commitold (állítsd be a gitignore fájlt, hogy csak a forrásfájlokat commitolja), pushold githubra.
 
@@ -44,7 +44,7 @@ Egy visual studio projektben amiket NEM verziókövetünk: .vs, .obj és .bin k�
 
 ## 5. feladat: unit teszt készítése
 
-- A már elkészített unit teszthez hasonlóan készíts egy újat (mehet ugyanabba az osztályba), mely a prímszámok összegének meghatározását tesztelni!
+- A már elkészített unit teszthez hasonlóan készíts egy újat (mehet ugyanabba az osztályba), mely a prímszámok összegének meghatározását teszteli!
 - Futtasd le a unit teszteket, hogy minden zöld-e.
 
 ## 6. feladat: pull request létrehozása
