@@ -1,37 +1,33 @@
-# Szövegkezelés és IO laboratórium
+# Szövegkezelés és I/O labor
 
-## Labor célkitűzése
+Ennek a labornak a célja a .NET szövegkezelésével, azon belül is elsősorban a reguláris kifejezés támogatással való megismerkedés.
 
-A labor során megismerkedhetünk a C# alapvető string kezelésével, a reguláris kifejezésekkel, illetve a fájl beolvasással is. 
+Feltételezzük, hogy korábbi tanulmányaitokból olyan metódusokat már ismertek, mint amivel meg lehet vizsgálni, hogy egy string azzal kezdődik-e, hogy "Hello". Ha mégsem, akkor itt a .NET eszköztára erre: [String methods](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.7.2)
 
-A labor során a feladatunk egy tesztekkel lefedett szoftver megvalósítása. A szoftver célja, hogy egy elérésiúttal megadott fájl-t kiolvasson, amiben felhasználói információk vannak. Ezek után el kell dönteni, hogy melyek azok a felhasználók, akiknek az email címe helytelen, majd ezeket a felhasználókat egy JSON formátumú string ként vissza kell adnunk.
+A reguláris kifejezés egy olyan, bizonyos szintaktikai szabályok szerint leírt string, amivel meghatározható stringek egy halmaza. Segítségével könnyedén tudunk szövegrészleteket keresni vagy megvizsgálni, hogy egy adott szövegrészlet egy szabálynak megfelel-e. Például érvényes telefonszám vagy e-mail cím-e.
 
-A laborban megismerkedhetünk a reguláris kifejezésekkel is, amikre vonatkozóan is találunk feladatokat. Ezek a Practice mappában a RegexPractice fájlban helyezkednek el. Megoldásukkal gyakorolhatjuk a reguláris kifejezéseket, melyeket az email validációjára tudunk felhasználni.
+# Felkészülés a laborra
 
-### Reguláris kifejezések
-A reguláris kifejezés egy olyan, bizonyos szintaktikai szabályok szerint leírt string, amivel meghatározható stringek egy halmaza. Segítségével könnyedén tudunk szövegrészleteket keresni vagy megvizsgálni, hogy egy adott szövegrészlet egy szabályzatnak megfelel-e.
+A felkészülés során az alábbi anyagokat tekintsd át:
 
-#### A bővebb információk
-* [Reguláris kifejezések C# segítségével](https://docs.microsoft.com/en-us/dotnet/api/system.text.regularexpressions.regex?view=netframework-4.7.2)
-* [Regularis kifejezések Wikipedia](https://hu.wikipedia.org/wiki/Regul%C3%A1ris_kifejez%C3%A9s)
+- Videó a reguláris kifejezésekről konkrét példával: https://youtu.be/z3NiHbYejKM
+- Videó a regex keresztrejtvényekről: https://youtu.be/VTb6uUmrLxU
+- [Reguláris kifejezések C# segítségével](https://docs.microsoft.com/en-us/dotnet/api/system.text.regularexpressions.regex?view=netframework-4.7.2)
+- Tekintsd át a kiinduló forráskódot. A unit tesztekben szerepelnek kommentárok és tippek, valamint ezek ellenőrizik a megoldásaid helyes működését. A megoldások mind a Solutions.cs fájlba kerülnek majd.
 
-## Labor felépítése
+# A labor feladatok
 
-A program a következő elemekből áll:
-* File Parser: A fájlból olvasást végző osztály.
-  * ParseUserFromFile: Egy megadott path-en elérhető fájlt olvas be és állít belőle össze egy User listát.
-* User: A felhasználó adatai tárolásáért felelős osztály.
-* EmailValidator: Email validálását végző osztály
-  * Megvizsgálja hogy egy adott string helyes email formátumú-e
-* UserValidator: A felhasználók helyességét vizsgáló osztály
-  * GetInvalidUsers: egy User listából visszaadja azokat a Usereket, akik nem validak, jelen esetben akiknek az emailcíme nem helyes.
-* UserReporter: A felhasználókról való jelentéseket készíti el
-  * ReportInvalidUsersToJson: Egy felhasználó lista alapján készít el egy JSON stringet.
+A labor feladat unit tesztek formájában adott. A projekt futtatható alkalmazást nem is tartalmaz, a cél a unit tesztek bezöldítése (csak a Solutions.cs fájlba dolgozz).
 
-A labor feladata ezeknek a függvényeknek a megvalósítása. A készülő program megérdése érdekében lejjebb találhatjuk a készülő program osztály diagramját, illetve a szekvencia diagramját.
+A feladatokat a Solutions.cs fájlban szereplő sorrendben érdemes elkészíteni.
+Minden elkészítendő metódushoz vannak unit tesztek (lásd Test Explorer), amiben tippek is szerepelnek, hogy hogyan kell megoldani őket.
+A cél a unit tesztek bezöldítése (anélkül, hogy a unit teszteket módosítanád. :) ).
 
-### UML osztály diagram
-![Labor UML](assets/texthandlinglaboruml.png)
+Az egyes feladat csoportok az alábbiak (lásd unit teszt csoportok), a javasolt sorrendben:
+- EmailTests: e-mail címek felismerése
+- PhoneNumberTests: telefonszámok felismerése
+- MusicBoxTests: a "Mi van a zenedobozban?" játék, leírása a unit tesztek elején. Csoportos kitalálós játék. Akik még nem ismerik, azoknak példák alapján rá kell jönnie a szabályra, amivel eldől, hogy valami benne van-e a zenedobozban. Pl. "fűzfák" vannak benne, de "ékszer" nincs.
+- PlusCodeTests: A Google által kifejlesztett Plus Code (avagy Open Location Code) felismerése. https://en.wikipedia.org/wiki/Open_Location_Code
+- DateTests: pár dátum felismeréssel kapcsolatos feladat, hogy például ne lehessen május 35. (Kivéve itt: https://moly.hu/konyvek/erich-kastner-majus-35)
 
-### Szekvencia diagram
-![Szekvencia diagram](assets/texthandlinglabor_szekvencia.png)
+A legtöbb feladatben először egy stringről kell eldönteni, hogy az-e, amit vizsgáltunk, utána pedig hasonlóan reguláris kifejezéssel egy szövegből kell kigyűjteni az ennek megfelelő részleteket, pl. telefonszámokat.
