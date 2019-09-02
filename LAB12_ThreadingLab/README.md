@@ -9,7 +9,7 @@ Mivel az időigényes műveletek nem futhatnak a felhasználói felület szálj�
 
 Az otthoni felkészülés az alábbi lépésekből áll:
 
-- Ismételd át az előadás anyagát.
+- Videó a többszálú programozásról: https://youtu.be/TDxzCFcolUk
 - Olvasd el ezt a mérési útmutatót, hogy ne a laboron lásd először.
 - Olvasd el az alábbi leírást az async-await mintáról:
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/
@@ -18,15 +18,11 @@ https://docs.microsoft.com/en-us/dotnet/standard/threading/cancellation-in-manag
 (Elég az elejétől a "Code Example" résszel bezárólag.)
 - Töltsd ki a Moodleben a kapcsolódó tesztet.
 
-## A labor kiindulási alapja, dokumentálása, lezárása
-
-A labor elején
-- Másold le a ThreadingLab kiinduló forráskódját a saját repositorydba a ThreadingLab könyvtárba. A továbbiakban ide dolgozz.
-(Ha esetleg a kiinduló forráskódban nincsen JEGYZOKONYV nevű alkönyvtár, hozz létre egyet. Minden esetleges kérdésre a választ, egyéb megjegyzéseket ide írd egy markdown fájlba (*.md), a screenshotokat pedig szintén itt helyezd el, feladat szerint sorszámozva.)
+## A labor dokumentálása, lezárása
 
 A labor közben
 - Folyamatosan (legalább minden feladat után) commitolj.
-- A feladatok futási eredményéről készíts screenshotot és ezeket sorszámozva mentsd el a jegyzőkönyv könyvtárba. Olyan screenshotokat készíts, melyen látszik az előre lépés az előző feladathoz képest. (Ha a UI-on semmi változás nem látszik, akkor kihagyhatod a screenshotot.)
+- FONTOS: A feladatok futási eredményéről készíts screenshotot és ezeket sorszámozva mentsd el egy "screenshots" könyvtárba. Olyan screenshotokat készíts, melyen látszik az előre lépés az előző feladathoz képest. (Ha a UI-on semmi változás nem látszik, akkor kihagyhatod a screenshotot.)
 
 A labor végén
 - Ne felejtsd el felpusholni a munkádat.

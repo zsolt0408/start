@@ -9,18 +9,19 @@ Ezzel az a célunk, hogy ne lehessen véglegesen megakadni a feladat megoldásá
 
 ## Felkészülés a laborra
 
-- Felkészülésként előre olvasd el az egész fenti snippetet! Kövesd végig a módosításokat, figyeld meg, mi miért lett olyan, amilyen. (A példakód MSTest típusú unit teszt projektet használ .NET Framework alatt, viszont a laboron .NET Core alatt fogunk xUnit tesztet készíteni, mivel az MSTest .NET Core alatt egyelőre/már nem támogatott.)
+- Felkészülésként előre olvasd el az egész fenti snippetet! Kövesd végig a módosításokat, figyeld meg, mi miért lett olyan, amilyen.
 - Nézd meg a laborra felkészülést támogató videókat:
   - Kiindulási program működése, első körös szépítgetés: https://youtu.be/xZ0gRsLK2Lw
   - A turkmite kiszervezése külön osztályba: https://youtu.be/tx8ofAxsfEU
   - A turkmite funkciók kiszervezése külön metódusba: https://youtu.be/RWIDCRuOOjc
   - Unit teszt készítése: https://youtu.be/JedBGqNbbxc
+  - Gondosan olvasd végig a [snippetet](http://bmeaut.github.io/snippets/snippets/0220_TurkmiteRefactorEsTeszt/) is, mert szerepelnek benne olyan trükkök, ami a videóban nem kerül sorra.
 
 - Próbáld ki Visual Studio alatt, hogyan lehet egy .NET Core xUnit teszt projektet létrehozni.
 
 ## A laboron
 
-- A laboron végezd el ugyanezeket a módosításokat, de úgy, hogy nem másolod a forráskódot, hanem a feladatra koncentrálva írod át. (Közben természetesen lesznek olyan részek is, ami a snippetben nincs részletekbe menően kifejtve, mint például az otthon kipróbált unit teszt létrehozás. Itt lehet, hogy szükség lesz egy kis kísérletezésre vagy Google keresésre. Nyilván nem te leszel az első, aki rákeres, így hamar meg lesz a válasz.)
+- A laboron végezd el ugyanezeket a módosításokat, de úgy, hogy nem másolod a forráskódot, hanem a feladatra koncentrálva írod át. (Közben természetesen lesznek olyan részek is, ami a snippetben nincs részletekbe menően kifejtve, mint például a unit teszt létrehozás. Itt lehet, hogy szükség lesz egy kis kísérletezésre vagy Google keresésre. Nyilván nem te leszel az első, aki rákeres, így hamar meg lesz a válasz.)
 - A megoldás során ne felejts el minden feladat után commitolni!
 - A snippet anyaga után a maradék időben menj tovább az alábbi feladatokkal.
 - A labor végén ne felejtsd el létrehozni a pull requestet és hozzárendelni a laborvezetődet, hogy meg tudja nézni.

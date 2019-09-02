@@ -26,13 +26,14 @@ GitHub classroom invitation URL a tárgy tanszéki honlapján, bejelentkezés ut
 
 ## 2. feladat: git clone, labor megoldás elkezdése
 
-- Klónozd a repositorydat a laborgépre.
+- Klónozd a repositorydat a laborgépre a Visual Studio alatt.
 - Hozz létre a master branch mellé egyet, amire a mostani laboron fogsz dolgozni LAB01 néven. A labor végén a pull requestben ennek az eltérését fogod majd beadni a master branchhez képest.
 - Nyisd meg a kiadott keretprogramot.
 
 ## 3. feladat: kész kód áttekintése, debug feladat
 
 - Futtasd le a kiadott programot és tekintsd át a futás eredményét és a program működését.
+- Próbáld ki az alapvető debug funkciókat: töréspont elhelyezése, törlése, futtatás a töréspontig, soronkénti léptetés, tovább futtatás, változók nevének megtekintése.
 
 ## 4. feladat: kódolás, debug funkciók
 
@@ -40,12 +41,12 @@ GitHub classroom invitation URL a tárgy tanszéki honlapján, bejelentkezés ut
 - Futtasd lépésenként a programot a debugger segítségével.
 - Ha működik a megoldás, commitold (állítsd be a gitignore fájlt, hogy csak a forrásfájlokat commitolja), pushold githubra.
 
-Egy visual studio projektben amiket NEM verziókövetünk: .vs, .obj és .bin könyvtárak tartalma, .user fájlok.
+Egy visual studio projektben amiket NEM verziókövetünk: .vs, .obj, .bin és packages könyvtárak tartalma, .user fájlok.
 
 ## 5. feladat: unit teszt készítése
 
 - A már elkészített unit teszthez hasonlóan készíts egy újat (mehet ugyanabba az osztályba), mely a prímszámok összegének meghatározását teszteli!
-- Futtasd le a unit teszteket, hogy minden zöld-e.
+- Futtasd le a unit teszteket a Test Explorerben, hogy minden zöld-e.
 
 ## 6. feladat: pull request létrehozása
 

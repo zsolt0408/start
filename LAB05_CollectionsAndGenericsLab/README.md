@@ -18,7 +18,6 @@ Hints:
 * List 
 * Szükséges még a count változó?
 
-
 ### Második feladat
 
 Miután kijavítottuk ezt a hibát. Végre működik az alkalmazás elindul és működnek is a függvények. Elkezdik használni ez a kódrészletet más programokban is.

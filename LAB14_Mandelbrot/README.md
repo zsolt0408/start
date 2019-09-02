@@ -8,7 +8,6 @@ A laborra való felkészülést a következő videók segítik:
 
 (A videókon a mintamegoldás forráskódján keresztül mutatom ba a működést, a labor végére ehhez hasonló eredményt kell kapni.)
 
-
 # A konkrét labor feladatok
 
 (E-mail érkezik az EViP Technologies vezetőségétől, a MandelbrotFavorites alkalmazásunk Product Ownerétől.)
@@ -16,7 +15,7 @@ A laborra való felkészülést a következő videók segítik:
 Kedves Kolléga!
 
 Megrendelőink nagyon elégedettek a MandelbrotFavorites alkalmazással, de találtak benne néhány apróságot, amit szeretnék, ha módosítanánk, kiegészítenénk.
-Kérlek, te, mint az alkalmazás egyik fő fejlesztője, hajtsd végre a kért módosításokat! Remélem, minden fontosat leírtak, ennél többet nem sikerült kicsikarni belőlük. :(
+Kérlek, te, mint az alkalmazás egyik fő fejlesztője, végezd el a kért módosításokat! Remélem, minden fontosat leírtak, ennél többet nem sikerült kicsikarni belőlük. :(
 
 Üdvözlettel,
 Andezit Xenon,

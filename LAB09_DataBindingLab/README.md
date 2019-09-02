@@ -1,3 +1,10 @@
+# DataBinding Labor
+
+Felkészülési anyagok:
+
+- A mérés előtt nézd meg a bevezető videót: https://youtu.be/vVvg6ZYT6FE
+- Az UwpBindingAndCommandDemo példaprogram működéséről még egy videó: https://youtu.be/00S42vT9ElY
+
 # DataBindingLab mérési feladatok
 
 A mérés során az alábbi feladatokat kell elkészíteni. Legalább minden feladat után commitolj.

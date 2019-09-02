@@ -31,3 +31,5 @@ Az egyes feladat csoportok az alábbiak (lásd unit teszt csoportok), a javasolt
 - DateTests: pár dátum felismeréssel kapcsolatos feladat, hogy például ne lehessen május 35. (Kivéve itt: https://moly.hu/konyvek/erich-kastner-majus-35)
 
 A legtöbb feladatben először egy stringről kell eldönteni, hogy az-e, amit vizsgáltunk, utána pedig hasonlóan reguláris kifejezéssel egy szövegből kell kigyűjteni az ennek megfelelő részleteket, pl. telefonszámokat.
+
+Bág még később kerül elő, a Soltions.Collect metódus visszatérési értéke IEnumerable<string>. Erről most elég annyit tudni, hogy stringek egy felsorolása, amire ha hívunk egy .ToArray()-t, akkor string[] tömb lesz belőle. Ezt láthatjátok a Solutions.CollectingMatchesExample metódusban is.

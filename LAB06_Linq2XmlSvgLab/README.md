@@ -1,5 +1,11 @@
 ﻿# Linq to XML lekérdezés labor (kódnév: Linq2XmlSvgLab)
 
+Az előzetes felkészüléshez az alábbi anyagokat tekintsd át:
+
+- Linq2XmlSvgLab videó: https://www.youtube.com/watch?v=-AZgUGNT2Nw
+- Linq dokumentáció: https://docs.microsoft.com/en-us/dotnet/csharp/linq/
+- A code review labor feladathoz: .NET C# coding guides (MS), lásd a leírásban.
+
 Ennek a labornak a célja a Linq to XML lekérdezések gyakorlása. Ehhez első körben kell egy adathalmaz, amire
 utána a lekérdezésekkel megválaszolandó feladatok vonatkoznak. A szemléletesség kedvéért kihasználjuk, hogy az
 SVG vektorgrafikus képformátum egy XML fájl, így a lekérdezések színes téglalapok és feliratok tulajdonságaira
