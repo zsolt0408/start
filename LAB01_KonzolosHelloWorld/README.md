@@ -22,7 +22,7 @@ Ehhez a laborhoz nagyon részletes videó útmutató tartozik, melyeket kérünk
 Hozd létre a saját repositorydat, amit a félév során fogsz használni!
 GitHub classroom invitation URL a tárgy tanszéki honlapján, bejelentkezés után: https://www.aut.bme.hu/Course/VIAUBB01 (Publikus helyre sajnos nem kerülhet ki.)
 
-(Amennyiben hallgatói névsorból kell választani, akkor válaszd ki magadat, ha nem, akkor az alábbi elnevezési konvenciót kövesd a repositorynál: Kurzuskod_Nev, ahol a nevet egybe írd nagy kezdőbetűkkel (PascalCasing), ékezetek nélkül, pl. L1_MintaMokus.)
+A repository elnevezését mi generáljuk a kurzusodból és a nevedből. Kérlek figyelj rá, hogy jót válassz ki! Pl. L1_MintaMokus.
 
 ## 2. feladat: git clone, labor megoldás elkezdése
 
